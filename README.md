@@ -1,4 +1,3 @@
-
 <div align="center">
   <img src="./src/main/resources/img/Badge-Spring.png" alt="Logo" height="100">
   <h2>
@@ -11,8 +10,6 @@
     <a href="https://github.com/Dev-Asfix/Foro-Hub/issues"><img src="https://img.shields.io/github/issues/Dev-Asfix/Foro-Hub?style=for-the-badge" alt="Open Issues"></a>
     <a href="https://github.com/Dev-Asfix/Foro-Hub/graphs/contributors"><img src="https://img.shields.io/github/contributors/Dev-Asfix/Foro-Hub?style=for-the-badge" alt="Contributors"></a>
 </p>
-
-
 
 <div align="center">
   <h2>
@@ -51,6 +48,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="GitHub Logo" />
 </div>
 
+### Requisitos
 
 - **Java 17** o superior
 - **Spring Boot 3.x**
@@ -61,13 +59,12 @@
 - **MySQL** (Base de datos relacional)
 - **Springdoc OpenAPI** (Documentación de API)
 
-
 ---
 
 ## 🛠️ Características
 
 - **API REST** con operaciones CRUD:
-  - **GET**: Obtener todos los Topicos / Respuestas / Usuaruios / Perfiles / etc.
+  - **GET**: Obtener todos los Topicos / Respuestas / Usuarios / Perfiles / etc.
   - **POST**: Crear.
   - **PUT**: Actualizar.
   - **DELETE**: Eliminar.
@@ -76,7 +73,6 @@
 - **Persistencia de datos** con **JPA** y **Spring Data**.
 - **Migraciones de base de datos** con **Flyway**.
 - **Documentación automática** de la API con **Springdoc OpenAPI**.
-
 
 ---
 
@@ -95,34 +91,3 @@ Antes de ejecutar el proyecto, asegúrate de tener instalados los siguientes pro
 
    ```bash
    git clone https://github.com/Dev-Asfix/Foro-Hub.git
-   
-2. **Configura tu base de datos MySQL**:
-   - Crea una base de datos para el proyecto.
-   - Actualiza las credenciales de la base de datos en el archivo `application.properties` o `application.yml`.
-
-3. **Ejecuta las migraciones de Flyway** (si es necesario).
-
-4. **Ejecuta la aplicación desde tu IDE o utilizando Maven/Gradle**:
-
-   **Con Maven**:
-
-   ```bash
-   mvn spring-boot:run
-   
-  **Con Gradle:**
-  
-  ```bash
-  gradle bootRun
-```
-
-## 📜 Licencia
-
-Este proyecto está bajo la **Licencia MIT**. Consulta el archivo [LICENSE](LICENSE) para más detalles.
-
----
-
-## 📬 Contacto
-
-Si tienes alguna pregunta o deseas saber más sobre el proyecto, no dudes en contactarme a través de:
-
-- **Correo electrónico**: [rosasramirez753@gmail.com](Email:rosasramirez753@gmail.com)
